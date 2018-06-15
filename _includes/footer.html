@@ -1,0 +1,37 @@
+<!-- Website Footer-->
+
+<nav class="navbar navbar-light">
+  <ul class="nav" id="adi-footer">
+    <span class="text-muted" id="footer-credit">Site designed by <a href="https://twitter.com/WillEssilfie">Will Essilfie</a>.</span>
+    <li class="nav-item ml-auto">
+      <a id="footer-link" class="nav-link" target="__blank" href="https://www.fb.com/adicu"><i class="fab fa-facebook"></i></a>
+    </li>
+    <li class="nav-item">
+      <a id="footer-link" class="nav-link" target="__blank" href="https://www.instagram.com/adicolumbia"><i class="fab fa-instagram"></i></a>
+    </li>
+    <li class="nav-item">
+      <a id="footer-link" class="nav-link" target="__blank" href="https://www.twitter.com/adicu"><i class="fab fa-twitter-square"></i></a>
+    </li>
+    <li class="nav-item">
+      <a id="footer-link" class="nav-link" target="__blank" href="https://www.github.com/adicu/"><i class="fab fa-github"></i></a>
+    </li>
+  </ul>
+</nav> 
+
+<script>
+/* Randomly select a new background image each time */
+  document.addEventListener('DOMContentLoaded', function() {
+    var images = ['a.jpg', 'b.jpg', 'c.jpg', 'd.jpg', 'e.jpg', 'f.jpg', 'g.jpg', 'h.jpg',
+    'i.jpg','j.jpg', 'k.jpg','l.jpg','m.jpg'];
+    var random_img = images[Math.floor(Math.random() * images.length)];
+    var img_path = "{{site.url}}/img/" + random_img;
+    document.getElementsByClassName('home-img')[0].style.backgroundImage="url(" + img_path + ")"; 
+}, false);
+
+</script>
+
+
+<!-- Required to go with Bootstrap 4-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
