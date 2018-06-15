@@ -3,7 +3,7 @@
 <nav class="navbar navbar-light">
   <ul class="nav" id="adi-footer">
     <span class="text-muted" id="footer-credit">Site by <a href="https://twitter.com/WillEssilfie">Will Essilfie</a>.</span>
-    <li class="nav-item">
+    <li class="nav-item ml-auto">
       <a id="footer-link" class="nav-link" target="__blank" href="https://www.fb.com/adicu"><i class="fab fa-facebook"></i></a>
     </li>
     <!-- <li class="nav-item">
@@ -25,7 +25,8 @@
     'i.jpg','j.jpg', 'k.jpg','l.jpg','m.jpg'];
     var random_img = images[Math.floor(Math.random() * images.length)];
     var img_path = "{{site.url}}/img/" + random_img;
-    document.getElementsByClassName('home-img')[0].style.backgroundImage="url(" + img_path + ")"; 
+    //document.getElementsByClassName('home-img')[0].style.backgroundImage="url(" + img_path + ")"; 
+    document.body.style.backgroundImage="url(" + img_path + ")"; 
 }, false);
 
 </script>
