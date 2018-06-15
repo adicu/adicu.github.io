@@ -68,7 +68,6 @@ body {
 	background-color: #50e582;
 }
 
-
 /* Start of Browser window CSS - https://codepen.io/candroo/pen/ozBEWY */
 div.browser {
    background-color: white;
@@ -88,6 +87,7 @@ div.browser {
   position: relative;
   width: 70%;
   opacity: .85;
+  padding-bottom: 50px; 
 }
 
 div.browser div.chrome {
@@ -162,7 +162,6 @@ div.browser p {
   padding-top: 10px;
   line-height: 1.5;
 }
-
 
 /* End of browser window CSS */
 
