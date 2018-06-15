@@ -48,7 +48,7 @@ body {
 
 .ribbon-strip {
 	height: .3125rem;
-    width: 7.5rem;
+    width: 11.6vw;
     display: inline-block;
 }
 
@@ -82,7 +82,7 @@ div.browser {
   padding-bottom: 10%;
   position: relative;
   width: 70%;
-  opacity: .85;
+  opacity: .92;
   padding-bottom: 50px; 
 }
 
@@ -124,6 +124,13 @@ div.browser div.chrome div.url {
           transform: translateX(-50%);
   top: 8px;
   width: 70%;
+}
+
+
+@media (max-width: 480px) {
+  div.browser div.chrome div.url {
+    width: 50%;
+  }
 }
 div.browser h1 {
   font-size: 48px;
@@ -169,7 +176,7 @@ div.browser p {
 }
 
 .fab {
-	font-size: 2em;
+	font-size: 1.4em;
 	color: black;
 }
 /* handling bootstrap dropdown showing off screen */

@@ -4,6 +4,7 @@ title: ADI Labs
 permalink: /programs/labs
 ---
 # Labs
+## Build apps for the Columbia community.
 
 ### About 
 ADI Labs is your opportunity to apply what you learn in class to real-life projects meant to help the Columbia community. Through Labs, you’ll work on existing projects (i.e. Density or the Jupyter notebook), learn how to work with existing codebases already in production, and get to learn best practices for both software engineering and UI/UX design. Certain projects may be eligible for course credit as well.

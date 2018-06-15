@@ -5,6 +5,7 @@ permalink: /resources/learntocode/
 ---
 
 # Learn To Code
+## Resources for entering tech
 There are tons of different technologies out there, each of which has its own tutorials, documentation, and community (good or bad). ADI has done the hard work of tracking down the best resources, summarizing each technology, and identify critical concepts based on goal so that the only thing standing between you and the implementation of your idea is a little bit of learning and hard work.
 DEVFEST CURRICULUM
 DevFest is ADI's annual week-long workshop series and hackathon. At DevFest 2016, we showcased the DevFest Tracks, featuring 6 original, self-paced, open-source tutorials in a variety of topics such as web development, iOS development, and data science. The DevFest Tracks are the perfect place to start learning new skills! Read more about the educational methodology and design behind the DevFest curriculum here.
